@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #f0e91f;
+}
+
+.logo{
+    display:flex;
+    justify-content: flex-end;   
+}
+.logo img{
+    width: 50%;
+    margin-top: 10px;
+}
+.logo .busqueda{
+    width: 50%;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.logo .lupa{
+    margin-top: 20px; 
+    margin-right: 10px;
+}
+.navegacion{
+    margin-top: 10px; 
+}
+li a{
+    color:black;
+}
+
+.titulares{
+    font-size: 24px;
+}
+.info .alinear{
+    display:flex;
+    justify-content: space-around;
+}
+.precio{
+    font-size: 18px;
+    background:white;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 6px;   
+}
+.descuentos{
+    font-size: 16px;
+    background:white;
+    color:#69c423;
+    margin:solid 15px;
+    justify-content: space-around;
+    margin-top: 9px;
+}
+.descripciones{
+    font-size: 16px;
+    background:white; 
+    margin-top: 10px; 
+}
+
+p{
+  font-size: 12px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+h2{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: -1px;
+}
+h3{
+    border-bottom: solid #d4d2d2 15px ;
+}
+.burger-menu{
+   background-color:#0000ff;
+   color:#ffffff;
+   width: 20px;
+   height: 25px;
+   text-align: center;
+   margin:auto;
+   margin-bottom: 10px;
+}
+.cuotas{
+    text-align: center;
+} 
+article{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    background:#d4d2d2; 
+}
+section .secciones{
+    box-sizing: border-box;
+    margin:solid 15px #d4d2d2;       
+}
+section {
+    background: gray;
+}
+
+.articulos img {
+    max-width: 92%;
+    max-height: 90%; 
+    margin-top: 15px; 
+    margin-left: 15px;
+    margin-right: 15px; 
+    margin-bottom: 2px;
+    box-shadow: 3px 0px 5px rgb(134, 126, 126);  
+}
+
+.info{
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color:#d4d2d2 ;
+}
+.info i{
+    display: block;
+    font-size: 16px;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    float: right;
+    margin-top: 10px;
+    color:#39b54a;
+    position:static;
+}
+   .alinear{
+    display:flex;
+    justify-content: flex-start;
+}
+   .ofertas .info{
+    background: white;
+    
+}
+   .ofertas{
+    padding:solid 15px #d4d2d2;
+}
+   .secciones .info{
+    background: white;
+} 
+
+.pie{
+
+    text-align: center; 
+    background-color: white;
+    color: #666;
+}
+.credit-card{
+   margin-bottom: 10px;
+   color:#03264C;
+}
+.gift{
+   margin-bottom: 10px white;
+   color:#03264C;
+   margin-top: 5px;
+}
+.ffa-user-shield {
+   margin-bottom: 10px;
+   color:#03264C;
+   margin-top: 5px;
+}
+.copy{
+    border-bottom: solid 10px #d4d2d2;
+}
+
+
+
+   
+
+
+@media (min-width: 820px){
+    /* Tablets-en proceso*/
+ }
+@media (min-width: 1280px){
+    /* Laptop-en proceso */
+}
+   
+

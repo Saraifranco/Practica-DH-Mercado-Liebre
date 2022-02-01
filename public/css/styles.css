@@ -5,11 +5,16 @@
 }
 header{
     font-family: 'Roboto', sans-serif;
-    
+    font-size: 12px;
+    background: #f0e91f;
+    width: 100%;
+    height: 40%;
+    border-bottom: solid 10px #f0e91f ;
+
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background: #f0e91f;
+    background:#ebebeb; 
 }
 
 .logo{
@@ -35,9 +40,22 @@ body{
 li a{
     color:black;
 }
+/*main{
+    width: 350px;
+    border-top: solid 20px #f0e91f;
+}*/
 
-.titulares{
+.visita{
     font-size: 24px;
+    margin-left: 13px;
+    margin-top: 5px;
+    margin-bottom: -1px;
+}
+.sale{
+    font-size: 24px;
+    margin-left: 13px;
+    margin-top: 15px;
+    /*margin-bottom: -1px*/
 }
 .info .alinear{
     display:flex;
@@ -45,23 +63,26 @@ li a{
 }
 .precio{
     font-size: 18px;
-    background:white;
-    display:flex;
+    /*background:white;*/
+    /*display:flex;*/
     align-items: flex-end;
     justify-content: space-around;
-    margin-top: 6px;   
+    margin-top: 4px;
+    margin-left: -40px; 
+
 }
 .descuentos{
     font-size: 16px;
-    background:white;
+    /*background:white;*/
     color:#69c423;
-    margin:solid 15px;
-    justify-content: space-around;
+    /*margin:solid 15px;*/
+    /*justify-content: space-around;*/
     margin-top: 9px;
+    margin-left: -60px;
 }
 .descripciones{
     font-size: 16px;
-    background:white; 
+    /*background:white; */
     margin-top: 10px; 
 }
 
@@ -71,22 +92,22 @@ p{
   margin-bottom: 5px;
 }
 h2{
-    font-size: 12px;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: -1px;
+    font-size: 12px; 
 }
 h3{
-    border-bottom: solid #d4d2d2 15px ;
+    /*border-bottom: solid #d4d2d2 15px ;*/
 }
 .burger-menu{
    background-color:#0000ff;
    color:#ffffff;
-   width: 20px;
+   width: 25px;
    height: 25px;
+   margin: 0 auto; 
+   margin-bottom: 5px;
+   border-top: solid 5px #0000ff;
    text-align: center;
-   margin:auto;
-   margin-bottom: 10px;
+   border-radius: 4px;
+   margin-top: -10;
 }
 .cuotas{
     text-align: center;
@@ -95,80 +116,126 @@ article{
     text-align: center;
     display:flex;
     flex-direction: column;
-    background:#d4d2d2; 
+    /*background:#d4d2d2;*/ 
 }
 section .secciones{
-    box-sizing: border-box;
-    margin:solid 15px #d4d2d2;       
+   /* margin:solid 15px #d4d2d2; */
+         
 }
+/*.secciones{
+    margin-top: 0px;
+}*/
 section {
-    background: gray;
+   /* background: #d4d2d2;*/
+    width: 90%;
+    margin-left: 15px;
 }
 
 .articulos img {
-    max-width: 92%;
-    max-height: 90%; 
-    margin-top: 15px; 
-    margin-left: 15px;
+    max-width: 100%;
+   /* max-height: 90%; */
+    margin-top: 10px; 
+    margin-left: 3px;
     margin-right: 15px; 
-    margin-bottom: 2px;
-    box-shadow: 3px 0px 5px rgb(134, 126, 126);  
+    box-shadow: 5px 5px 5px rgb(134, 126, 126);
+      
 }
 
 .info{
     margin-right: 15px;
     margin-left: 15px;
-    background-color:#d4d2d2 ;
+    /*background-color:#d4d2d2 ;*/
 }
-.info i{
+.fa-truck{
     display: block;
-    font-size: 16px;
+    /*font-size: 16px;
     padding: 2px;
     width: 30px;
     height: 30px;
-    background-color: #FFF;
+    background-color: #FFF;*/
     float: right;
     margin-top: 10px;
     color:#39b54a;
     position:static;
+    margin-right: 15px;
 }
+/* .info{
+    width: 130px;
+    height: 30px; 
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #FFF;
+
+ }*/
+ .secciones .info{
+    background: white;
+    width: 100%;
+   /* height: 80px;*/
+    box-shadow: 3px 0px 5px rgb(134, 126, 126);
+    border-top: solid 1px #ebebeb;
+    margin-left: 3px;
+    border-bottom: solid 20px white;
+
+} 
    .alinear{
-    display:flex;
-    justify-content: flex-start;
+    height: 30px; 
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #FFF;
 }
    .ofertas .info{
     background: white;
+    width: 100%;
+    height: 80px;
+    border-top: solid 1px #ebebeb;
+    box-shadow: 3px 0px 5px rgb(134, 126, 126);
+    margin-left: 3px;
+    
     
 }
    .ofertas{
-    padding:solid 15px #d4d2d2;
+   /*padding:solid 15px #d4d2d2;*/
+   
 }
-   .secciones .info{
-    background: white;
-} 
+   
+.foter{
+    box-sizing:border-box;
+    margin-top: 20px;
+    margin-left: 19px;
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    border-bottom: solid 10px #ebebeb;
+    border-top: solid 10px white;
+}
 
 .pie{
 
-    text-align: center; 
-    background-color: white;
+    text-align: center;   
     color: #666;
 }
 .credit-card{
-   margin-bottom: 10px;
+   /*margin-bottom: 10px;*/
    color:#03264C;
+   width: 2em;
+   margin-left: 45%;
 }
 .gift{
-   margin-bottom: 10px white;
+   /*margin-bottom: 10px white;*/
    color:#03264C;
-   margin-top: 5px;
+   margin-top: 10px;
+   width: 2em;
+   margin-left: 45%;
 }
 .ffa-user-shield {
-   margin-bottom: 10px;
+    margin-top: 10px;
    color:#03264C;
-   margin-top: 5px;
+   margin-bottom: 10px;
+   width: 2em;
+   margin-left: 45%; 
 }
 .copy{
-    border-bottom: solid 10px #d4d2d2;
+   border-bottom: solid 10px white;
 }
 
 

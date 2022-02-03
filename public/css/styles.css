@@ -8,9 +8,7 @@ header{
     font-size: 12px;
     background: #f0e91f;
     width: 100%;
-    height: 40%;
     border-bottom: solid 10px #f0e91f ;
-
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -19,26 +17,58 @@ body{
 
 .logo{
     display:flex;
-    justify-content: flex-end;   
+    flex-direction: row;
 }
 .logo img{
-    width: 50%;
-    margin-top: 10px;
+    margin-top: -10px;
+    flex-grow: 0.5;
+    margin-left: 5px;
+    
 }
-.logo .busqueda{
-    width: 50%;
-    margin-top: 12px;
-    margin-left: 10px;
+#barra{
+    height: 25%;
+    margin-top: 40px;
+    margin-right: -100px;
+    flex-grow: 0.5;
+    margin-left: 95px;
+    display: flex;
+    justify-content: flex-end;   
+    
 }
-.logo .lupa{
-    margin-top: 20px; 
-    margin-right: 10px;
+/*form{
+    width: 10px;
+    margin-top: 70px;
+    margin-right: 170px;
+}*/
+.fa-search{
+    width: 24px;
+    height: 17px;
+    background: white;
+    text-align: center;
+    position: relative;
+    top:-25px;
+    left: 150px;
+    border-top: solid white 3px;
+    position: relative;
+
 }
 .navegacion{
     margin-top: 10px; 
+
+}
+.cuotas{
+    margin-top: 120px;
+    margin-left: -280px;
 }
 li a{
     color:black;
+    margin-left: -150px;
+}
+.banner img{
+    width: 111%;
+    margin-left: -15px;
+    margin-bottom: -15px;
+    
 }
 /*main{
     width: 350px;
@@ -47,7 +77,7 @@ li a{
 
 .visita{
     font-size: 24px;
-    margin-left: 13px;
+    margin-left: -8px;
     margin-top: 5px;
     margin-bottom: -1px;
 }
@@ -65,11 +95,9 @@ li a{
     font-size: 18px;
     /*background:white;*/
     /*display:flex;*/
-    align-items: flex-end;
-    justify-content: space-around;
+    /*align-items: flex-end;
+    justify-content: space-around;*/
     margin-top: 4px;
-    margin-left: -40px; 
-
 }
 .descuentos{
     font-size: 16px;
@@ -94,20 +122,20 @@ p{
 h2{
     font-size: 12px; 
 }
-h3{
-    /*border-bottom: solid #d4d2d2 15px ;*/
-}
+/*h3{
+    border-bottom: solid #d4d2d2 15px ;
+}*/
 .burger-menu{
    background-color:#0000ff;
    color:#ffffff;
    width: 25px;
    height: 25px;
    margin: 0 auto; 
-   margin-bottom: 5px;
+   margin-bottom: -10px;
    border-top: solid 5px #0000ff;
    text-align: center;
    border-radius: 4px;
-   margin-top: -10;
+   margin-top: -90px;
 }
 .cuotas{
     text-align: center;
@@ -116,13 +144,14 @@ article{
     text-align: center;
     display:flex;
     flex-direction: column;
+    
     /*background:#d4d2d2;*/ 
 }
-section .secciones{
-   /* margin:solid 15px #d4d2d2; */
+/*section .secciones{
+    margin:solid 15px #d4d2d2; 
          
 }
-/*.secciones{
+.secciones{
     margin-top: 0px;
 }*/
 section {
@@ -135,11 +164,11 @@ section {
     max-width: 100%;
    /* max-height: 90%; */
     margin-top: 10px; 
-    margin-left: 3px;
-    margin-right: 15px; 
+    margin-left: 1px;
+    /*margin-right: 15px;*/ 
     box-shadow: 5px 5px 5px rgb(134, 126, 126);
-      
 }
+    
 
 .info{
     margin-right: 15px;
@@ -170,12 +199,11 @@ section {
  .secciones .info{
     background: white;
     width: 100%;
-   /* height: 80px;*/
+    /*height: 80px;*/   
     box-shadow: 3px 0px 5px rgb(134, 126, 126);
     border-top: solid 1px #ebebeb;
-    margin-left: 3px;
+    margin-left: 1px;
     border-bottom: solid 20px white;
-
 } 
    .alinear{
     height: 30px; 
@@ -186,17 +214,18 @@ section {
    .ofertas .info{
     background: white;
     width: 100%;
-    height: 80px;
+    /*height: 80px;*/
     border-top: solid 1px #ebebeb;
+    border-bottom: solid 20px white;
     box-shadow: 3px 0px 5px rgb(134, 126, 126);
-    margin-left: 3px;
+    margin-left: 1px;
     
     
 }
-   .ofertas{
-   /*padding:solid 15px #d4d2d2;*/
+   /*.ofertas{
+   padding:solid 15px #d4d2d2;
    
-}
+}*/
    
 .foter{
     box-sizing:border-box;
@@ -243,9 +272,149 @@ section {
    
 
 
-@media (min-width: 820px){
-    /* Tablets-en proceso*/
- }
+@media (min-width: 460px){
+    .logo{
+        display:flex;
+        flex-direction: row;
+        width: 90%;
+        
+    }
+   .logo img{
+        
+        margin-top: 5px;
+        flex-grow: 0.5;
+        margin-left: 30px;
+        
+    }
+    #barra{
+        height: 20%;
+        margin-top: 50px;
+        margin-right: -100px;
+        flex-grow: 0.5;
+        margin-left: 105px;
+        display: flex;
+        justify-content: flex-end;   
+        
+    }
+    /*form{
+        width: 10px;
+        margin-top: 70px;
+        margin-right: 170px;
+    }*/
+    .fa-search{
+        width: 25px;
+        height: 17px;
+        background: white;
+        text-align: center;
+        position: relative;
+        top:-19px;
+        left: 165px;
+        border-top: solid white 3px;
+        position: relative;
+    
+    }
+    .cuotas{
+        margin-top: 130px;
+        margin-left: -300px;
+    }
+}
+ @media (min-width: 530px){
+    .logo{
+        display:flex;
+        flex-direction: row;
+        width: 90%;
+        
+    }
+   .logo img{
+        
+        margin-top: 5px;
+        flex-grow: 0.5;
+        margin-left: 30px;
+        
+    }
+    
+    #barra{
+        height: 20%;
+        margin-top: 50px;
+        margin-right: -100px;
+        flex-grow: 0.5;
+        margin-left: 105px;
+        display: flex;
+        justify-content: flex-end;   
+        
+    }
+    /*form{
+        width: 10px;
+        margin-top: 70px;
+        margin-right: 170px;
+    }*/
+    .fa-search{
+        width: 25px;
+        height: 17px;
+        background: white;
+        text-align: center;
+        position: relative;
+        top:-19px;
+        left: 165px;
+        border-top: solid white 3px;
+        position: relative;
+    
+    }
+    .cuotas{
+        margin-top: 130px;
+        margin-left: -300px;
+    }
+    
+}
+@media (min-width: 760px){
+    /*en proceso*/
+   /* .logo{
+        display:flex;
+        flex-direction: row;
+        width: 80%;
+        
+    }
+   .logo img{
+        
+        margin-top: 60px;
+        flex-grow: 0.5;
+        margin-left: 10px;
+        
+    }
+    #barra{
+        height: 20%;
+        margin-top: 70px;
+        margin-right: -150px;
+        flex-grow: 0.5;
+        margin-left: 105px;
+        display: flex;
+        justify-content: flex-end;   
+        
+    }
+    /*form{
+        width: 10px;
+        margin-top: 70px;
+        margin-right: 170px;
+    }
+    .fa-search{
+        width: 25px;
+        height: 17px;
+        background: white;
+        text-align: center;
+        position: relative;
+        top:-19px;
+        left: 165px;
+        border-top: solid white 3px;
+        position: relative;
+    
+    }
+    .cuotas{
+        margin-top: 70px;
+        margin-left: 100px;
+        
+    }*/
+    
+}
 @media (min-width: 1280px){
     /* Laptop-en proceso */
 }
